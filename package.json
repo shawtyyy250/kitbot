@@ -1,0 +1,21 @@
+{
+  "name": "kitbot",
+  "version": "0.1.0",
+  "description": "KitBot - modular Discord server-in-a-box bot (Moderation, Tickets, Welcome, AutoRoles, Giveaways, Leveling, Logging, Announcements, Setup, Store)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "stripe": "^16.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
